@@ -1,0 +1,300 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Samra Gul - Graphic Designer | Blog</title>
+
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Original Template CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/simplebar.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Original Theme -->
+    <link rel="stylesheet" href="css/skins/deeporange.css">
+
+    <!-- Color Switcher Styles -->
+    <link rel="alternate stylesheet" title="amber" href="css/skins/amber.css">
+    <link rel="alternate stylesheet" title="blue" href="css/skins/blue.css">
+    <link rel="alternate stylesheet" title="brown" href="css/skins/brown.css">
+    <link rel="alternate stylesheet" title="cyan" href="css/skins/cyan.css">
+    <link rel="alternate stylesheet" title="deeporange" href="css/skins/deeporange.css">
+    <link rel="alternate stylesheet" title="deeppurple" href="css/skins/deeppurple.css">
+    <link rel="alternate stylesheet" title="green" href="css/skins/green.css">
+    <link rel="alternate stylesheet" title="grey" href="css/skins/grey.css">
+    <link rel="alternate stylesheet" title="indigo" href="css/skins/indigo.css">
+    <link rel="alternate stylesheet" title="lightblue" href="css/skins/lightblue.css">
+    <link rel="alternate stylesheet" title="pink" href="css/skins/pink.css">
+    <link rel="alternate stylesheet" title="purple" href="css/skins/purple.css">
+    <link rel="alternate stylesheet" title="red" href="css/skins/red.css">
+    <link rel="alternate stylesheet" title="teal" href="css/skins/teal.css">
+    <link rel="stylesheet" href="css/styleswitcher.css">
+
+    <!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body class="dark">
+
+<div id="wrapper" data-simplebar>
+
+    <!-- Color Switcher -->
+    <div id="switcher">
+        <div class="content-switcher">
+
+            <h4>COLOR SWITCHER</h4>
+
+            <ul>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('amber'); return false;" class="color">
+                        <img src="images/styleswitcher/amber.png" alt="Amber theme">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('blue'); return false;" class="color">
+                        <img src="images/styleswitcher/blue.png" alt="Blue theme">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('brown'); return false;" class="color">
+                        <img src="images/styleswitcher/brown.png" alt="Brown theme">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('cyan'); return false;" class="color">
+                        <img src="images/styleswitcher/cyan.png" alt="Cyan theme">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('deeporange'); return false;" class="color">
+                        <img src="images/styleswitcher/deeporange.png" alt="Deep orange theme">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('deeppurple'); return false;" class="color">
+                        <img src="images/styleswitcher/deeppurple.png" alt="Deep purple theme">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('green'); return false;" class="color">
+                        <img src="images/styleswitcher/green.png" alt="Green theme">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('grey'); return false;" class="color">
+                        <img src="images/styleswitcher/grey.png" alt="Grey theme">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('indigo'); return false;" class="color">
+                        <img src="images/styleswitcher/indigo.png" alt="Indigo theme">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('lightblue'); return false;" class="color">
+                        <img src="images/styleswitcher/lightblue.png" alt="Light blue theme">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('pink'); return false;" class="color">
+                        <img src="images/styleswitcher/pink.png" alt="Pink theme">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('purple'); return false;" class="color">
+                        <img src="images/styleswitcher/purple.png" alt="Purple theme">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('red'); return false;" class="color">
+                        <img src="images/styleswitcher/red.png" alt="Red theme">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('teal'); return false;" class="color">
+                        <img src="images/styleswitcher/teal.png" alt="Teal theme">
+                    </a>
+                </li>
+            </ul>
+
+            <hr>
+
+            <h4>BODY SKIN</h4>
+
+            <label>
+                <input class="dark_switch" type="radio"
+                    name="color_style" id="is_dark" value="dark" checked>
+                Dark
+            </label>
+
+            <label>
+                <input class="dark_switch" type="radio"
+                    name="color_style" id="is_light" value="light">
+                Light
+            </label>
+
+            <div id="hideSwitcher">&times;</div>
+        </div>
+    </div>
+
+    <div id="showSwitcher" class="styleSecondColor">
+        <i class="fa fa-cog fa-spin"></i>
+    </div>
+
+    <!-- Preloader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+
+    <!-- Blog Post Section -->
+    <div class="section blog-section" id="blog">
+
+        <div id="blog-content">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12 post-container single-post-container">
+
+                        <!-- Back to Blog -->
+                        <a href="blog.html" class="link-blog">
+                            <span class="material-icons">keyboard_arrow_left</span>
+                            Back to Blog
+                        </a>
+
+                        <!-- Blog Information -->
+                        <div class="meta d-inline-block">
+
+                            <span>
+                                <span class="material-icons">person</span>
+                                Samra Gul
+                            </span>
+
+                            <span class="date">
+                                <span class="material-icons">date_range</span>
+                                10 Oct 2026
+                            </span>
+
+                            <span>
+                                <span class="material-icons">tag</span>
+                                Graphic Design, Branding, Creativity
+                            </span>
+
+                        </div>
+
+                        <!-- Woman Image from Unsplash -->
+                        <img
+                            src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=1200&q=85"
+                            class="img-fluid"
+                            alt="Woman portrait representing Samra Gul, Graphic Designer"
+                            loading="lazy"
+                        >
+
+                        <!-- Blog Title -->
+                        <h2>
+                            The Art of Graphic Design: Turning Ideas into Visual Stories
+                        </h2>
+
+                        <!-- Blog Content -->
+                        <p>
+                            Hello! I'm Samra Gul, a Graphic Designer passionate
+                            about creating meaningful and visually appealing
+                            designs. I believe that great graphic design is more
+                            than just beautiful colors and shapes. It is about
+                            communicating ideas, expressing creativity, and
+                            building a strong visual identity.
+                        </p>
+
+                        <p>
+                            My creative interests include logo design, brand
+                            identity, social media graphics, typography, poster
+                            design, and digital illustrations. Every project
+                            gives me an opportunity to explore new ideas and
+                            create designs that communicate a clear message.
+                        </p>
+
+                        <p>
+                            Branding is one of the most important parts of a
+                            successful business. A well-designed logo, a
+                            consistent color palette, and carefully selected
+                            typography help a brand become recognizable.
+                            My goal is to create visual designs that reflect
+                            the personality and vision of each brand.
+                        </p>
+
+                        <p>
+                            I also enjoy creating social media posts, promotional
+                            banners, and digital artwork. I focus on visual
+                            balance, readable typography, thoughtful color
+                            combinations, and clean layouts to make each design
+                            attractive and easy to understand.
+                        </p>
+
+                        <p>
+                            For me, graphic design is a continuous learning
+                            journey. I enjoy experimenting with new concepts,
+                            improving my design skills, and exploring creative
+                            solutions. I look forward to working on projects
+                            that turn imaginative ideas into memorable visual
+                            experiences.
+                        </p>
+
+                        <p>
+                            Thank you for visiting my portfolio. Feel free to
+                            explore my work and discover how creativity and
+                            design can bring ideas to life.
+                        </p>
+
+                        <h3>My Design Philosophy</h3>
+
+                        <p>
+                            My design philosophy is simple: keep the message
+                            clear, make every visual element meaningful, and
+                            create work that connects with its audience.
+                            Every color, font, shape, and image should have
+                            a purpose.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Original Template JavaScript -->
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/simplebar.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+
+<!-- Color Switcher JavaScript -->
+<script src="js/styleswitcher.js"></script>
+
+</body>
+</html>

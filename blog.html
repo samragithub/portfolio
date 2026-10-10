@@ -1,0 +1,280 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Samra Gul - Graphic Designer | Blog</title>
+
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Original CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/simplebar.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Original Theme -->
+    <link rel="stylesheet" href="css/skins/deeporange.css">
+
+    <!-- Color Switcher -->
+    <link rel="alternate stylesheet" title="amber" href="css/skins/amber.css">
+    <link rel="alternate stylesheet" title="blue" href="css/skins/blue.css">
+    <link rel="alternate stylesheet" title="brown" href="css/skins/brown.css">
+    <link rel="alternate stylesheet" title="cyan" href="css/skins/cyan.css">
+    <link rel="alternate stylesheet" title="deeporange" href="css/skins/deeporange.css">
+    <link rel="alternate stylesheet" title="deeppurple" href="css/skins/deeppurple.css">
+    <link rel="alternate stylesheet" title="green" href="css/skins/green.css">
+    <link rel="alternate stylesheet" title="grey" href="css/skins/grey.css">
+    <link rel="alternate stylesheet" title="indigo" href="css/skins/indigo.css">
+    <link rel="alternate stylesheet" title="lightblue" href="css/skins/lightblue.css">
+    <link rel="alternate stylesheet" title="pink" href="css/skins/pink.css">
+    <link rel="alternate stylesheet" title="purple" href="css/skins/purple.css">
+    <link rel="alternate stylesheet" title="red" href="css/skins/red.css">
+    <link rel="alternate stylesheet" title="teal" href="css/skins/teal.css">
+    <link rel="stylesheet" href="css/styleswitcher.css">
+
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body class="dark">
+
+<div id="wrapper" data-simplebar>
+
+    <!-- Color Switcher -->
+    <div id="switcher">
+        <div class="content-switcher">
+
+            <h4>COLOR SWITCHER</h4>
+
+            <ul>
+                <li><a href="#" onclick="setActiveStyleSheet('amber'); return false;" class="color"><img src="images/styleswitcher/amber.png" alt="Amber"></a></li>
+                <li><a href="#" onclick="setActiveStyleSheet('blue'); return false;" class="color"><img src="images/styleswitcher/blue.png" alt="Blue"></a></li>
+                <li><a href="#" onclick="setActiveStyleSheet('brown'); return false;" class="color"><img src="images/styleswitcher/brown.png" alt="Brown"></a></li>
+                <li><a href="#" onclick="setActiveStyleSheet('cyan'); return false;" class="color"><img src="images/styleswitcher/cyan.png" alt="Cyan"></a></li>
+                <li><a href="#" onclick="setActiveStyleSheet('deeporange'); return false;" class="color"><img src="images/styleswitcher/deeporange.png" alt="Deep Orange"></a></li>
+                <li><a href="#" onclick="setActiveStyleSheet('deeppurple'); return false;" class="color"><img src="images/styleswitcher/deeppurple.png" alt="Deep Purple"></a></li>
+                <li><a href="#" onclick="setActiveStyleSheet('green'); return false;" class="color"><img src="images/styleswitcher/green.png" alt="Green"></a></li>
+                <li><a href="#" onclick="setActiveStyleSheet('grey'); return false;" class="color"><img src="images/styleswitcher/grey.png" alt="Grey"></a></li>
+                <li><a href="#" onclick="setActiveStyleSheet('indigo'); return false;" class="color"><img src="images/styleswitcher/indigo.png" alt="Indigo"></a></li>
+                <li><a href="#" onclick="setActiveStyleSheet('lightblue'); return false;" class="color"><img src="images/styleswitcher/lightblue.png" alt="Light Blue"></a></li>
+                <li><a href="#" onclick="setActiveStyleSheet('pink'); return false;" class="color"><img src="images/styleswitcher/pink.png" alt="Pink"></a></li>
+                <li><a href="#" onclick="setActiveStyleSheet('purple'); return false;" class="color"><img src="images/styleswitcher/purple.png" alt="Purple"></a></li>
+                <li><a href="#" onclick="setActiveStyleSheet('red'); return false;" class="color"><img src="images/styleswitcher/red.png" alt="Red"></a></li>
+                <li><a href="#" onclick="setActiveStyleSheet('teal'); return false;" class="color"><img src="images/styleswitcher/teal.png" alt="Teal"></a></li>
+            </ul>
+
+            <hr>
+
+            <h4>BODY SKIN</h4>
+
+            <label>
+                <input class="dark_switch" type="radio" name="color_style" id="is_dark" value="dark" checked>
+                Dark
+            </label>
+
+            <label>
+                <input class="dark_switch" type="radio" name="color_style" id="is_light" value="light">
+                Light
+            </label>
+
+            <div id="hideSwitcher">&times;</div>
+
+        </div>
+    </div>
+
+    <div id="showSwitcher" class="styleSecondColor">
+        <i class="fa fa-cog fa-spin"></i>
+    </div>
+
+    <!-- Preloader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+
+    <!-- Blog Section -->
+    <div class="section blog-section" id="blog">
+
+        <div id="blog-content">
+
+            <!-- Page Heading -->
+            <div class="heading text-left text-md-center">
+                <h2>
+                    My <span>Blog</span>
+                </h2>
+            </div>
+
+            <!-- Blog Posts -->
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- Blog 1: Logo Design -->
+                    <div class="col-12 post-container">
+
+                        <div class="post-thumb">
+                            <a href="blog-post.html" class="d-block">
+                                <img
+                                    src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1200&q=85"
+                                    class="img-fluid"
+                                    alt="Graphic design and creative artwork"
+                                    loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="post-content">
+
+                            <div class="post-date d-none d-sm-flex">
+                                <span>10</span>
+                                <span>OCT</span>
+                            </div>
+
+                            <div class="entry-header">
+
+                                <a href="blog-post.html">
+                                    The Art of Logo Design and Visual Identity
+                                </a>
+
+                                <p>
+                                    A logo is the face of a brand. Discover how
+                                    creative concepts, typography, shapes, and
+                                    colors come together to create memorable
+                                    and meaningful brand identities.
+                                    Read more about my graphic design journey.
+                                </p>
+
+                                <a href="blog-post.html" class="main-btn">
+                                    <span>Read More</span>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Blog 2: Branding -->
+                    <div class="col-12 post-container">
+
+                        <div class="post-thumb">
+                            <a href="blog-post.html" class="d-block">
+                                <img
+                                    src="https://images.unsplash.com/photo-1634942536790-2536f7f2d3e5?auto=format&fit=crop&w=1200&q=85"
+                                    class="img-fluid"
+                                    alt="Creative branding and graphic design"
+                                    loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="post-content">
+
+                            <div class="post-date d-none d-sm-flex">
+                                <span>18</span>
+                                <span>OCT</span>
+                            </div>
+
+                            <div class="entry-header">
+
+                                <a href="blog-post.html">
+                                    Building a Strong Brand Through Design
+                                </a>
+
+                                <p>
+                                    Good branding creates a consistent visual
+                                    experience. Explore the importance of color
+                                    palettes, typography, logo systems, and
+                                    design consistency in creating a recognizable
+                                    and professional brand.
+                                </p>
+
+                                <a href="blog-post.html" class="main-btn">
+                                    <span>Read More</span>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Blog 3: Social Media Design -->
+                    <div class="col-12 post-container">
+
+                        <div class="post-thumb">
+                            <a href="blog-post.html" class="d-block">
+                                <img
+                                    src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=1200&q=85"
+                                    class="img-fluid"
+                                    alt="Colorful digital art and creative design"
+                                    loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="post-content">
+
+                            <div class="post-date d-none d-sm-flex">
+                                <span>25</span>
+                                <span>OCT</span>
+                            </div>
+
+                            <div class="entry-header">
+
+                                <a href="blog-post.html">
+                                    Creating Eye-Catching Social Media Designs
+                                </a>
+
+                                <p>
+                                    Social media graphics help businesses
+                                    communicate with their audience. Learn how
+                                    thoughtful layouts, readable typography,
+                                    balanced colors, and creative visuals can
+                                    make digital content more engaging.
+                                </p>
+
+                                <a href="blog-post.html" class="main-btn">
+                                    <span>Read More</span>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Load More -->
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="blog.html" class="btn main-btn allposts">
+                            <span>All Posts</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Original JavaScript Files -->
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/simplebar.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/styleswitcher.js"></script>
+
+</body>
+</html>
